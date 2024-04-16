@@ -47,3 +47,23 @@ python manage.py runserver
 ```
 python manage.py runserver 4444
 ```
+
+### Install mysql driver
+```
+pip install mysqlclient
+```
+
+### Create migrations (used after creating new models)
+```
+python manage.py makemigrations
+```
+
+### Run migration (migrates the models/tables to the database)
+```
+python manage.py migrate
+```
+
+### Create Superuser/admin
+```
+python manage.py createsuperuser
+```
