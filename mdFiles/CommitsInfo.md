@@ -18,3 +18,6 @@
 ## Render Html Page
 ##### Created HTML page rendering from templates.
 ##### Passing dynamic values in the html page.
+
+## If-Else and ForLoop
+##### Used Conditional tags and For loops in HomePage
