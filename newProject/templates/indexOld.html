@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>{{title}}</title>
+	</head>
+
+	<body>
+		<h1>{{body}}</h1>
+		<div class="courses">
+			{% if courses %}
+			<h4>Available Courses are</h4>
+			{%else%}
+			<h4>Currently, No Courser are available</h4>
+			{% endif %} {% for c in courses %}
+			<h5>{{c}}</h5>
+			{% endfor %}
+		</div>
+
+		<div class="table">
+			<table border="1" cellpadding="2">
+				<tr>
+					<th>id</th>
+					<th>Name</th>
+					<th>Email</th>
+				</tr>
+				{% for u in users %}
+				<tr>
+					<td>{{forloop.counter}}</td>
+					<td>{{u.name}}</td>
+					<td>{{u.email}}</td>
+				</tr>
+				{% endfor %}
+			</table>
+		</div>
+	</body>
+</html>

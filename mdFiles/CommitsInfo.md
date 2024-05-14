@@ -21,3 +21,6 @@
 
 ## If-Else and ForLoop
 ##### Used Conditional tags and For loops in HomePage
+
+## Managing Static Files
+##### Changed Home Page and added support of css,images from Static dir in index.html
