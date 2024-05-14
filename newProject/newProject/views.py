@@ -3,6 +3,16 @@ from django.shortcuts import render
 
 
 def home(request):
+    return render(request, "index.html", data)
+
+
+def aboutUs(request):
+    # return HttpResponse("<h1>This is about us Page<h1/>")
+    data = {"title": "About Page", "body": "This is about Page"}
+    return render(request, "about.html", data)
+
+
+def Course(request):
     data = {
         "title": "Home Page",
         "body": "Welcome to my new Project",
@@ -12,17 +22,7 @@ def home(request):
             {"name": "Avimanyu", "email": "avimanyu@gmail.com"},
         ],
     }
-    return render(request, "index.html", data)
-
-
-def aboutUs(request):
-    # return HttpResponse("<h1>This is about us Page<h1/>")
-    data = {"title": "About Page", "body": "This is about Page"}
-    return render(request, "index.html", data)
-
-
-def Course(request):
-    return HttpResponse("<h1>This is Courses Page<h1/>")
+    return render(request, "course.html", data)
 
 
 def couserDetail(request, courseId):

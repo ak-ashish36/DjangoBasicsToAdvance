@@ -7,6 +7,8 @@
 }
 body {
 	font-family: montserrat;
+}
+#main-body {
 	position: relative;
 	background: url("/static/img/bg1.jpg") no-repeat;
 	background-size: cover;

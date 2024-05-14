@@ -24,3 +24,6 @@
 
 ## Managing Static Files
 ##### Changed Home Page and added support of css,images from Static dir in index.html
+
+## Managing Header and Footer using include keyword in Templates
+##### Adde header.html and footer.html file in templates and using them in all other page using include keyword
