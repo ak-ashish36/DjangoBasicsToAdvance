@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 
 def home(request):
-    return render(request, "index.html", data)
+    return render(request, "index.html",)
 
 
 def aboutUs(request):
@@ -24,6 +24,8 @@ def Course(request):
     }
     return render(request, "course.html", data)
 
+def contactUs(request):
+    return render(request, "contact.html")
 
 def couserDetail(request, courseId):
     return HttpResponse("<h1>This is Course {id} Page <h1/>".format(id=courseId))

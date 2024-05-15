@@ -27,3 +27,7 @@
 
 ## Managing Header and Footer using include keyword in Templates
 ##### Adde header.html and footer.html file in templates and using them in all other page using include keyword
+
+## Extends keyword in templates
+##### header and footer are included in base.html file, and base.html is included in all other pages
+##### Added Contact page

@@ -7,9 +7,9 @@
 }
 body {
 	font-family: montserrat;
+	position: relative;
 }
 #main-body {
-	position: relative;
 	background: url("/static/img/bg1.jpg") no-repeat;
 	background-size: cover;
 	height: calc(100vh - 80px);

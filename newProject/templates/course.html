@@ -1,4 +1,4 @@
-{% include "header.html" %}
+{% extends "base.html" %} {% block content %}
 
 <section>
 	<h1>{{body}}</h1>
@@ -30,4 +30,4 @@
 	</div>
 </section>
 
-{% include "footer.html" %}
+{% endblock content %}
