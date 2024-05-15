@@ -20,9 +20,9 @@ from newProject import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.home),
-    path('about-us/',views.aboutUs),
-    path('course/',views.Course),
+    path('',views.home,name="home"),
+    path('about-us/',views.aboutUs,name="about"),
+    path('course/',views.Course,name="course"),
     path('course/<int:courseId>',views.couserDetail),
-    path('contact-us/',views.contactUs)
+    path('contact-us/',views.contactUs,name="contact")
 ]

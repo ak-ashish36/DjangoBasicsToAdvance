@@ -31,3 +31,7 @@
 ## Extends keyword in templates
 ##### header and footer are included in base.html file, and base.html is included in all other pages
 ##### Added Contact page
+
+## Url Templates and Highlighting links
+##### Routing pages with the use of url templates
+##### Highlighting the page in navbar which is opened
