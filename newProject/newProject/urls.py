@@ -24,5 +24,6 @@ urlpatterns = [
     path('about-us/',views.aboutUs,name="about"),
     path('course/',views.Course,name="course"),
     path('course/<int:courseId>',views.couserDetail),
-    path('contact-us/',views.contactUs,name="contact")
+    path('contact-us/',views.contactUs,name="contact"),
+    path('form/',views.useForm,name='form')
 ]

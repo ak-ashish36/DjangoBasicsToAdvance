@@ -35,3 +35,8 @@
 ## Url Templates and Highlighting links
 ##### Routing pages with the use of url templates
 ##### Highlighting the page in navbar which is opened
+
+## HTTP Request and Page Redirecting
+### Created form with GET and POST Request
+### Shown example of redirecting page in post request of the page , see views.html
+### Page redirecting can also be achieved by action attribute in form tag

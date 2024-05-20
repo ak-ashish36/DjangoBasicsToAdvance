@@ -1,0 +1,38 @@
+{% extends "base.html" %} {% block content %}
+<section id="registration">
+	<h1> Form </h1>
+	<div class="register-container">
+		<h3>With Get method</h3>
+		<form method="get">
+			<div class="box">
+				<i class="fa fa-key"></i>
+				<input type="number" name="num1" minlength="3" placeholder="Enter num 1" />
+			</div>
+			<div class="box">
+				<i class="fa fa-key"></i>
+				<input type="number" name="num2" placeholder="Enter num 2" />
+			</div>
+			<button type="submit" class="btn">Calculate</button>
+		</form>
+		<h3>The value is: {{getoutput}}</h3>
+	</div>
+	<hr/>
+	<div class="register-container">
+		<h3>With Post method</h3>
+		<form method="post">
+			{% csrf_token %}
+			<div class="box">
+				<i class="fa fa-key"></i>
+				<input type="number" name="num1" minlength="3" placeholder="Enter num 1" value="{{n1post}}" />
+			</div>
+			<div class="box">
+				<i class="fa fa-key"></i>
+				<input type="number" name="num2" placeholder="Enter num 2"value={{n2post}} />
+			</div>
+			<button type="submit" class="btn">Calculate</button>
+		</form>
+		<h3>You will be redirected to course Page</h3>
+		<h3>The value is: {{outputpost}}</h3>
+	</div>
+</section>
+{% endblock content%}

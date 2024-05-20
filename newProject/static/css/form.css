@@ -1,0 +1,44 @@
+#registration{
+    background-color: #bde3ff;
+    margin-bottom: -10em;
+
+}
+#registration h1{
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    border-bottom: 5px solid  #0082e6;
+    margin-bottom: 15px;
+    padding: 13px 0;
+}
+.register-container {
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-container .box {
+    width: 50em;
+    margin-top: 15px;
+    border-bottom: 2px solid  #0082e6;
+}
+
+.register-container .box input {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+}
+
+.register-container .btn {
+    cursor: pointer;
+    outline: none;
+    /* margin: 16px 0; */
+    margin-top: 10px;
+    padding: 10px 21px;
+    border: 2px solid  #0082e6;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
