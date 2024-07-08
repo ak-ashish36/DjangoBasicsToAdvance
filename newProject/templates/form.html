@@ -6,15 +6,17 @@
 		<form method="get">
 			<div class="box">
 				<i class="fa fa-key"></i>
-				<input type="number" name="num1" minlength="3" placeholder="Enter num 1" />
+				<!-- <input type="number" name="num1" minlength="3" placeholder="Enter num 1" /> -->
+				{{form.num1}}
 			</div>
 			<div class="box">
 				<i class="fa fa-key"></i>
-				<input type="number" name="num2" placeholder="Enter num 2" />
+				<!-- <input type="number" name="num2" placeholder="Enter num 2" /> -->
+				{{form.num2}}
 			</div>
 			<button type="submit" class="btn">Calculate</button>
 		</form>
-		<h3>The value is: {{getoutput}}</h3>
+		<h3>The value is: {{output}}</h3>
 	</div>
 	<hr/>
 	<div class="register-container">

@@ -40,3 +40,6 @@
 ### Created form with GET and POST Request
 ### Shown example of redirecting page in post request of the page , see views.html
 ### Page redirecting can also be achieved by action attribute in form tag
+
+## Form Model
+### Create a form using the forms model in the Django framework
